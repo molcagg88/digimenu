@@ -205,7 +205,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 bg-background border-b border-border shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <Menu className="h-6 w-6" />
+            <MainMenu />
             <h1 className="text-2xl font-bold">Digital Menu</h1>
           </div>
 
@@ -223,9 +223,7 @@ export default function Home() {
                 </span>
               )}
             </Button>
-            <Button variant="ghost" size="icon">
-              <User className="h-5 w-5" />
-            </Button>
+            <ProfileMenu />
           </div>
         </div>
       </header>
